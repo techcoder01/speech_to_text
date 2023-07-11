@@ -131,17 +131,12 @@ void _listen() async {
             _confidence = val.confidence;
           }
         }),
-        listenFor: null,
+        listenFor: Duration(hours: 1), // Set a long duration to keep listening
       );
     }
   } else {
     setState(() => _isListening = false);
     _speech.stop();
   }
-}
-
-void _stopListening() {
-  setState(() => _isListening = false);
-  _speech.stop();
 }
 }
