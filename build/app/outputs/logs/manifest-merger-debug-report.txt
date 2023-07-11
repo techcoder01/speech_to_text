@@ -1,6 +1,8 @@
 -- Merging decision tree log ---
 application
 INJECTED from C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\android\app\src\main\AndroidManifest.xml:2:5-32:19
+MERGED from [:url_launcher_android] C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Tech Coder\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Tech Coder\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.core:core:1.6.0] C:\Users\Tech Coder\.gradle\caches\transforms-3\7e9df2ac2213a6bd3cef0f2f27870d79\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
@@ -18,6 +20,7 @@ INJECTED from C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\an
 INJECTED from C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\android\app\src\main\AndroidManifest.xml:1:1-33:12
 MERGED from C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\android\app\src\main\AndroidManifest.xml:1:1-33:12
 MERGED from [:speech_to_text] C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\build\speech_to_text\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:url_launcher_android] C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-16:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Tech Coder\.gradle\caches\transforms-3\ae81e06d24c799147c26814497a2a305\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Tech Coder\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Tech Coder\.gradle\caches\transforms-3\75f94412898c7559d34d7edbbeaeb394\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -58,6 +61,8 @@ INJECTED from C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\an
 INJECTED from C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\android\app\src\main\AndroidManifest.xml
 MERGED from [:speech_to_text] C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\build\speech_to_text\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:speech_to_text] C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\build\speech_to_text\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Tech Coder\.gradle\caches\transforms-3\ae81e06d24c799147c26814497a2a305\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Tech Coder\.gradle\caches\transforms-3\ae81e06d24c799147c26814497a2a305\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Tech Coder\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
@@ -108,6 +113,14 @@ uses-permission#android.permission.BLUETOOTH_CONNECT
 ADDED from [:speech_to_text] C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\build\speech_to_text\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-76
 	android:name
 		ADDED from [:speech_to_text] C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\build\speech_to_text\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-73
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] C:\Users\Tech Coder\Desktop\Ui 30 Days\Speech to Text\speechapp\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Tech Coder\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 	android:required
