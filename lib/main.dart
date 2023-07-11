@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Voice',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.red,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: SpeechScreen(),
@@ -94,7 +94,7 @@ class _SpeechScreenState extends State<SpeechScreen> {
         repeatPauseDuration: const Duration(milliseconds: 100),
         repeat: true,
         child: FloatingActionButton(
-          onPressed: _stopListening,
+          onPressed: _listen,
           child: Icon(_isListening ? Icons.mic : Icons.mic_none),
         ),
       ),
