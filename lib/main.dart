@@ -94,7 +94,7 @@ class _SpeechScreenState extends State<SpeechScreen> {
         repeatPauseDuration: const Duration(milliseconds: 100),
         repeat: true,
         child: FloatingActionButton(
-          onPressed: _listen,
+          onPressed: _stopListening,
           child: Icon(_isListening ? Icons.mic : Icons.mic_none),
         ),
       ),
@@ -138,5 +138,10 @@ void _listen() async {
     setState(() => _isListening = false);
     _speech.stop();
   }
+}
+
+void _stopListening() {
+  setState(() => _isListening = false);
+  _speech.stop();
 }
 }
