@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Voice',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.green,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: SpeechScreen(),
@@ -131,9 +131,12 @@ void _listen() async {
             _confidence = val.confidence;
           }
         }),
+        listenFor: null,
       );
     }
+  } else {
+    setState(() => _isListening = false);
+    _speech.stop();
   }
-  // Remove the else block to prevent automatic stop
 }
 }
