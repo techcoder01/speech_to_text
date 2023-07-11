@@ -123,7 +123,10 @@ void _listen() async {
       onError: (val) => print('onError: $val'),
     );
     if (available) {
-      setState(() => _isListening = true);
+      setState(() {
+        _isListening = true;
+        _text = ''; // Clear the text
+      });
       _speech.listen(
         onResult: (val) => setState(() {
           _text = val.recognizedWords;
