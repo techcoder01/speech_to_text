@@ -116,7 +116,7 @@ class _SpeechScreenState extends State<SpeechScreen> {
     );
   }
 
-void _listen() async {
+void _listen({Duration pauseDuration = const Duration(seconds: 1000)}) async {
   if (!_isListening) {
     bool available = await _speech.initialize(
       onStatus: (val) => print('onStatus: $val'),
@@ -134,7 +134,8 @@ void _listen() async {
             _confidence = val.confidence;
           }
         }),
-        listenFor: Duration(hours: 1), // Set a long duration to keep listening
+        listenFor: Duration(hours: 24), // Set a long duration to keep listening
+        pauseFor: pauseDuration, // Set the pause duration
       );
     }
   } else {
@@ -142,4 +143,5 @@ void _listen() async {
     _speech.stop();
   }
 }
+
 }
